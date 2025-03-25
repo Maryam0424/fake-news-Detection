@@ -6,8 +6,8 @@ import joblib
 import streamlit as st
 
 # Load model and vectorizer
-rf_model = joblib.load('model/random_forest_model.pkl')
-vectorization = joblib.load('model/tfidf_vectorizer.pkl')
+rf_model = joblib.load('./model/random_forest_model.pkl')
+vectorization = joblib.load('./model/tfidf_vectorizer.pkl')
 
 # Streamlit UI
 st.title("Fake News Detector")
